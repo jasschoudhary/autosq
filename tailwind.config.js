@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // your custom theme values go here
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        'exo-2': ['var(--font-exo-2)'],
+        audiowide: ['var(--font-audiowide)'],
+      },
     },
   },
   plugins: [
